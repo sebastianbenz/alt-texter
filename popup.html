@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alt Text Generator</title>
+    <style>
+      body {
+        width: 500px;
+        height: 300px;
+        padding: 10px;
+      }
+      textarea {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 10px;
+      }
+      button {
+        margin-right: 5px;
+      }
+      #loading, textarea {
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Alt Texter</h1>
+    <div id="loading">Generating alt text ...</div>
+    <textarea id="altText" hidden></textarea>
+    <button type="submit" id="copyClose">Copy and close</button>
+    <button type="submit" id="discard">Discard</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
